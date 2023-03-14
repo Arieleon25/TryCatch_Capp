@@ -16,9 +16,9 @@ namespace TryCatch_Capp
            
             try
             {
+                int userInput = Convert.ToInt32(Console.ReadLine());
                 foreach (int num in numList)
                 {
-                    int userInput = Convert.ToInt32(Console.ReadLine());
                     int total = num / userInput;
                     Console.WriteLine(total);
                 }
